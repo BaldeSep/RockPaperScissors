@@ -60,4 +60,22 @@ main {
       }
     }
   }
+
+  #round-output {
+    display: none;
+    text-align: center;
+    margin: 5px 0px;
+    .success {
+      padding: 5px;
+      background-color: lime;
+      color: #000;
+      border-radius: 5px;
+    }
+    .failure {
+      padding: 5px;
+      background-color: crimson;
+      color: #fff;
+      border-radius: 5px;
+    }
+  }
 }
