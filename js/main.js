@@ -142,4 +142,4 @@ function game(maxRounds = 5) {
   }
 }
 
-game();
+// game();
