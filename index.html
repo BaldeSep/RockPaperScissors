@@ -23,15 +23,32 @@
           Computer Score: <span id="computer-score">0</span>
         </p>
         <div id="selection-wrapper">
-          <p class="player-selection"><i class="fas fa-hand-rock"></i></p>
-          <p class="player-selection"><i class="fas fa-hand-paper"></i></p>
-          <p class="player-selection"><i class="fas fa-hand-scissors"></i></p>
+          <p class="player-selection" data-play="Rock">
+            <i class="fas fa-hand-rock"></i>
+          </p>
+          <p class="player-selection" data-play="Paper">
+            <i class="fas fa-hand-paper"></i>
+          </p>
+          <p class="player-selection" data-play="Scissors">
+            <i class="fas fa-hand-scissors"></i>
+          </p>
         </div>
-        <div id="round-output" data-default-display="block">
-          <p class="failure">
-            You <span class="win-loose">Win</span> this Round:
-            <span class="winner">Rock</span> Beats
-            <span class="looser">Scissors</span>
+        <div id="round-output" data-display="block">
+          <p class="">
+            You <span id="round-win-lose">Win</span> this Round:
+            <span id="round-winner">Rock</span> Beats
+            <span id="round-loser">Scissors</span>
+          </p>
+        </div>
+        <div id="draw" data-display="block">
+          <p>
+            Draw
+          </p>
+        </div>
+        <div id="game-results" data-display="block">
+          <p class="">
+            You <span id="game-win-lose"></span> this Game, Refresh the page to
+            replay.
           </p>
         </div>
       </div>

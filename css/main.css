@@ -71,23 +71,31 @@ main #selection-wrapper .player-selection:hover {
   color: #fff;
 }
 
-main #round-output {
+main #round-output,
+main #game-results,
+main #draw {
   display: none;
   text-align: center;
   margin: 5px 0px;
 }
 
-main #round-output .success {
+main .success {
   padding: 5px;
   background-color: lime;
   color: #000;
   border-radius: 5px;
 }
 
-main #round-output .failure {
+main .failure {
   padding: 5px;
   background-color: crimson;
   color: #fff;
+  border-radius: 5px;
+}
+
+main #draw {
+  background-color: gold;
+  color: #000;
   border-radius: 5px;
 }
 /*# sourceMappingURL=main.css.map */
